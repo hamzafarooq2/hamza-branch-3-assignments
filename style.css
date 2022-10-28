@@ -1,60 +1,114 @@
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
+
 main{
-    margin: 3% 0 0 20%;
-    width: 40%;
+    width: 1050px;
+  margin: 5%;
 }
-.day{
-    font-size: 25px;
+.request{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
-.hl-1{
+.first-row{
+    color: #cacaca;
+    display: inline-flex;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.leave{
+    margin-left: 230px;
+}
+.from{
+    margin-left: 100px;
+}
+.hl{
     width: 100%;
     height: 2px;
     background: 1px #e9e5e8;
-    margin-top: 10px;
 }
-h2{
-    color: #5f5e5f;
-    margin-top: 19px;
-    font-size: 18px;
+.main-row{
+    display: inline-flex;
+    align-items: center;
+    padding-top: 15px;
+    transition: 0.5s;
+    padding-bottom: 15px;
+    
 }
-.hl-2{
+.main-row:hover{
+    background-color: #e9e5e8;
+    cursor: pointer;
+}
+img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.name{
+    margin-left: 6px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.unpaid{
+    margin-left: 157px;
+    color: #919291;
+    font-weight: bold;
+    font-size: 15px;
+}
+.date{
+    margin-left: 63px;
+    color: #919291;
+    font-weight: bold;
+    font-size: 15px;
+}
+.disapprove{
+    margin-left: 70px;
+    color: #ef4d6b;
+    font-weight: bold;
+}
+.btn{
+    padding: 7px 13px;
+    margin-left: 15px;
+    background-color: #0beca3;
+    color: white;
+    border-radius: 5px;
+}
+.more{
+    margin-left: 20px;
+    color: #404541;
+    font-weight: bold;
+    font-size: 15px;
+}
+.hl-1{
     width: 100%;
     height: 1px;
     background: 1px #e9e5e8;
-    margin-top: 10px;
 }
-.row-1{
-    margin-top: 25px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.para{
-    display: flex;
-    flex-direction: row;
-}
-.name{
-    margin-left: 10px;
-}
-.name h3{
-    font-size: medium;
-}
-.name p{
-    font-size: 15px;
-    color: #5f5e5f;
-    font-weight: bold;
-}
-.right{
-    font-size: 15px;
-    color: #5f5e5f;
-    font-weight: bold;
-    margin-top: 10px;
-}
-img{
-    width: 47px;
-    height: 47px;
-    border-radius: 50%;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
