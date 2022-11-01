@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+/*------------All Three Boxes----------*/
+
+.box-1{
+    width: 260px;
+    height: 206px;
+    border: 1px solid #dce0e3;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+.box-1 .te{
+    margin-top: 25px;
+    margin-left: 25px;
+    color: lightslategray;
+    font-size: large;
+    font-weight: bold;
+}
+.both{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.both p{
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.gr{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    color: #1bcaed;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.gr .fa-solid{
+    margin-right: 5px;
+}
+.col{
+    background-color: #363847;
+    padding: 27px 0 27px 25px;
+    margin-top: 18px;
+    height: auto;
+    color: #d2d3d6;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px ;
+}
+/*----------------Last-Box Few changes-----------------------*/
+.gr-3{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    color: #f943a7;
+    font-weight: bold;
+    margin-right: 20px;
+}
+ .gr-3 .fa-solid{
+    margin-right: 5px;
+}
