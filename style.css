@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    position: relative;
+    margin: 3% 0 0 35%;
+    width: 380px;
+    height: 600px;
+}
+.leave{
+    font-size: 40px;
+}
+/*--------------------First Row----------------*/
+.bar{
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: #f3f3f3;
+    width: 100%;
+}
+.all{
+    padding: 15px 50px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 1px 1px 0
+        gray, 0 1px 5px 0
+        gray;
+    margin-right: 40px;
+    font-weight: bol;
+}
+.value{
+    display: flex;
+    flex-direction: row;
+    margin-top: 12px;
+    color: lightslategray;
+    font-size: large;
+    
+}
+.value .yellow{
+    color: #febc00;
+    margin-right: 5px;
+    font-size: 8px;
+    margin-top: 7px;
+}
+.value .purple{
+    color: blueviolet;
+    margin-right: 5px;
+    margin-left: 60px;
+    font-size: 8px;
+    margin-top: 7px;
+}
+.value{
+    display: flex;
+    flex-direction: row;
+}
+
+/*--------------------------------------------------------------*/
+
+.dec{
+    color: lightslategray;
+    font-size: large;
+    margin-top: 25px;
+    font-weight: 500;
+}
+
+/*---------------------Same css For last four rows Except btn--------------------------------*/
+
+.awaiting{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #dce0e3;
+    margin-top: 7px;
+    border-radius: 10px;
+}
+.awaiting .three{
+    padding: 3%;
+}
+.awaiting .three .day{
+    color: lightslategray;
+    font-weight: 600;
+    font-size: 16px;
+}
+.awaiting .three h3 {
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.awaiting .three p{
+    color: #edd56e;
+    font-size: 17px;
+    font-weight: bolder;
+}
+/*---------------Row Right Side-------------*/ 
+.await-right{
+    display: flex;
+    flex-direction: column;
+}
+.await-right .btn{
+    padding: 5px 5px 5px 17px;
+    background-color: #fff2c1;
+    color: #d0b14f;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-top: 11px;
+    margin-right: 12px;
+}
+.await-right .fa-solid{
+    margin-left: 70px;
+    margin-top: 19px;
+    padding: 6px 6px 7px 7px;
+    background-color: #f3f3f3;
+    font-size: small;
+    color: lightslategray;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.await-right .btn-green{
+    padding: 5px 5px 5px 17px;
+    background-color: #99fac9;
+    color: #38bc77;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-top: 11px;
+    margin-right: 12px;
+}
+.nov{
+    color: lightslategray;
+    font-size: large;
+    margin-top: 20px;
+    font-weight: 500;
+}
+.await-right .btn-red{
+    padding: 5px 5px 5px 19px;
+    background-color: #ffedee;
+    color: #f59aa1;
+    font-weight: 900;
+    border-radius: 8px;
+    margin-top: 11px;
+    margin-right: 12px;
+}
+.margin{
+    margin-top: 20px;
+}
+
+
+
