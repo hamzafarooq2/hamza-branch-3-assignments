@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+main {
+  margin: 0 auto;
+  width: 1208px;
+}
+
+.req {
+  margin: 20px 0 20px 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.first-row {
+  display: inline-flex;
+  color: #aaaaa9;
+  font-size: 12px;
+  border-bottom: 2px solid #ddd;
+  width: 970px;
+  padding-bottom: 16px;
+}
+
+.emp {
+  margin-left: 24px;
+}
+
+.leave {
+  margin-left: 224px;
+}
+.from {
+  margin-left: 100px;
+}
+
+.main-row {
+  display: flex;
+  align-items: center;
+  padding: 8px 0 8px 0;
+  transition: 0.5s;
+  border-bottom: 1px solid #ddd;
+}
+
+.hov {
+  transition: 0.5s;
+}
+.hov:hover {
+  background-color: #e9e5e8;
+  cursor: pointer;
+}
+
+.hl {
+  height: 2px;
+  background: 1px #e9e5e8;
+}
+
+img {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+.name {
+  margin-left: 8px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.unpaid {
+  margin-left: 156px;
+  color: lightslategray;
+  font-weight: bold;
+  font-size: 12px;
+}
+.date {
+  margin-left: 64px;
+  color: lightslategray;
+  font-weight: bold;
+  font-size: 12px;
+}
+.disapprove {
+  margin-left: 68px;
+  color: #ef4d6b;
+  font-weight: bold;
+  font-size: 12px;
+}
+.btn {
+  padding: 8px 12px;
+  margin-left: 15px;
+  background-color: #0beca3;
+  color: white;
+  border-radius: 6px;
+  font-size: 12px;
+}
+.more {
+  margin-left: 20px;
+  color: #404541;
+  font-weight: bold;
+  font-size: 12px;
+}
+.hl-1 {
+  width: 100%;
+  height: 1px;
+  background: 1px #e9e5e8;
+}
