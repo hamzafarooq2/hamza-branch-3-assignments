@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e0caf5ef1c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Submit Leave Request</title>
+</head>
+<body>
+    <body style="background-color:#f4f5f7">
+        <main>
+            <div class="pto"><p>Type of Leave</p></div>
+                <form>
+                    <!-----------First Row------------->
+                    <div class="first-row">
+                        <div id="b1" class="box-1 bb">
+                            <div class="radio">
+                                <input onclick="check1()" type="radio" id="rad1" name="a">
+                            </div>
+                            <div class="right">
+                                <p class="paid">Paid Time Off (PTO)</p>
+                                <p>Each Computercraft employee has 15<br> PTO days per</p>
+                            </div>
+                        </div>
+                        <div id="b2" class="box-2 bb">
+                            <div class="radio">
+                                <input onclick="check2()" type="radio" id="rad2" name="a">
+                            </div>
+                            <div class="right">
+                                    <p class="paid">Paid Time Off (PTO)</p>
+                                    <p>Each Computercraft employee has 15<br> PTO days per</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!------------Second Row------------------------->
+    
+                    <div class="first-row">
+                        <div id="b3" class="box-1 bb">
+                            <div class="radio">
+                                <input onclick="check3()" type="radio" id="rad3" name="a">
+                            </div>
+                            <div class="right">
+                                <p class="paid">Paid Time Off (PTO)</p>
+                                <p>Each Computercraft employee has 15<br> PTO days per</p>
+                            </div>
+                        </div>
+                        <div id="b4" class="box-2 bb">
+                            <div class="radio">
+                                <input onclick="check4()" type="radio" id="rad4" name="a">
+                            </div>
+                            <div class="right">
+                                <p class="paid">Paid Time Off (PTO)</p>
+                                <p>Each Computercraft employee has 15<br> PTO days per</p>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+                <div class="hl"></div>
+                <h3>Date Range</h3>
+
+                <!--------------Date Range--------------------->
+
+                <div class="dates">
+                    <div class="start-date">
+                        <input class="no-outline" style="border: none;" type="date"/>
+                    </div>
+                    <i class="fa-solid arrow fa-arrow-right"></i>
+                    <div class="end-date">
+                        <input class="no-outline" style="border: none;" type="date"/>
+                    </div>
+                </div>
+
+                <!------------------------------------>
+
+                <h3>Note From Management</h3>
+                <input class="row-4" type="text" >
+        
+                <div class="row-5">
+                    <div class="btn-4">Approve Request</div>
+                </div>
+        </main>
+
+<script src="app.js" ></script>
+</body>
+<html>
