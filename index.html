@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <script
       src="https://kit.fontawesome.com/e0caf5ef1c.js"
@@ -33,16 +30,16 @@
 
       <!------------------Box-1--------------------->
 
-      <div class="box_1 casual">
+      <div class="box_1">
         <p class="dec">December 2020</p>
-        <div class="awaiting" id="myDiv">
+        <div class="box_inside">
           <div class="three">
             <p class="day">Half Day Application</p>
             <h3>Wed, 16 Dec</h3>
-            <p>Casual</p>
+            <p class="casualColor">Casual</p>
           </div>
 
-          <div class="await-right">
+          <div class="box_right">
             <div class="btn">Awaiting</div>
             <i class="fa-solid fa-angle-right"></i>
           </div>
@@ -53,14 +50,14 @@
 
       <div class="box_2">
         <p class="nov">Novemeber 2020</p>
-        <div class="awaiting">
+        <div class="box_inside">
           <div class="three">
-            <p class="day">Half Day Application</p>
-            <h3>Wed, 16 Dec</h3>
-            <p style="color: blueviolet">Sick</p>
+            <p class="day">Full Day Application</p>
+            <h3>Mon, 28 Nov</h3>
+            <p class="sickColor">Sick</p>
           </div>
 
-          <div class="await-right">
+          <div class="box_right">
             <div class="btn-green">Approved</div>
             <i class="fa-solid fa-angle-right"></i>
           </div>
@@ -69,15 +66,15 @@
 
       <!---------------------Box-3------------------------>
 
-      <div class="box_3 casual">
-        <div class="awaiting">
+      <div class="box_3">
+        <div class="box_inside">
           <div class="three">
-            <p class="day">Half Day Application</p>
-            <h3>Wed, 16 Dec</h3>
-            <p style="color: #edd56e">Casual</p>
+            <p class="day">3 Day Application</p>
+            <h3>Tue, 22 Nov - Fri, 25 Nov</h3>
+            <p class="casualColor">Casual</p>
           </div>
 
-          <div class="await-right">
+          <div class="box_right">
             <div class="btn-red">Declined</div>
             <i class="fa-solid fa-angle-right"></i>
           </div>
@@ -87,14 +84,14 @@
       <!-----------------Box-4-------------------------->
 
       <div class="box_4">
-        <div class="awaiting">
+        <div class="box_inside">
           <div class="three">
-            <p class="day">Half Day Application</p>
-            <h3>Wed, 16 Dec</h3>
-            <p style="color: blueviolet">Sick</p>
+            <p class="day">Full Day Application</p>
+            <h3>Wed, 02 Nov</h3>
+            <p class="sickColor">Sick</p>
           </div>
 
-          <div class="await-right">
+          <div class="box_right">
             <div class="btn-green">Approved</div>
             <i class="fa-solid fa-angle-right"></i>
           </div>
@@ -102,50 +99,6 @@
       </div>
     </div>
 
-    <script>
-      function allFunction() {
-        const box_1 = document.querySelector(".box_1");
-        box_1.style.visibility = "visible";
-
-        const box_2 = document.querySelector(".box_2");
-        box_2.style.visibility = "visible";
-        box_2.style.position = "";
-
-        const box_3 = document.querySelector(".box_3");
-        box_3.style.visibility = "visible";
-
-        const box_4 = document.querySelector(".box_4");
-        box_4.style.visibility = "visible";
-      }
-
-      function casualFunction() {
-        const box_1 = document.querySelector(".box_1");
-        box_1.style.visibility = "visible";
-
-        const box_3 = document.querySelector(".box_3");
-        box_3.style.visibility = "visible";
-
-        const box_2 = document.querySelector(".box_2");
-        box_2.style.visibility = "hidden";
-        box_2.style.position = "absolute";
-
-        const box_4 = document.querySelector(".box_4");
-        box_4.style.visibility = "hidden";
-      }
-
-      function sickFunction() {
-        const box_1 = document.querySelector(".box_1");
-        box_1.style.visibility = "hidden";
-
-        const box_3 = document.querySelector(".box_3");
-        box_3.style.visibility = "hidden";
-
-        const box_2 = document.querySelector(".box_2");
-        box_2.style.visibility = "visible";
-
-        const box_4 = document.querySelector(".box_4");
-        box_4.style.visibility = "visible";
-      }
-    </script>
+    <script src="index.js"></script>
   </body>
 </html>
