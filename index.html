@@ -1,89 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/e0caf5ef1c.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <link rel="stylesheet" href="style.css" />
     <title>Submit Leave Request</title>
-</head>
-<body>
-    <body style="background-color:#f4f5f7">
-        <main>
-            <div class="pto"><p>Type of Leave</p></div>
-                <form>
-                    <!-----------First Row------------->
-                    <div class="first-row">
-                        <div id="b1" class="box-1 bb">
-                            <div class="radio">
-                                <input onclick="check1()" type="radio" id="rad1" name="a">
-                            </div>
-                            <div class="right">
-                                <p class="paid">Paid Time Off (PTO)</p>
-                                <p>Each Computercraft employee has 15<br> PTO days per</p>
-                            </div>
-                        </div>
-                        <div id="b2" class="box-2 bb">
-                            <div class="radio">
-                                <input onclick="check2()" type="radio" id="rad2" name="a">
-                            </div>
-                            <div class="right">
-                                    <p class="paid">Paid Time Off (PTO)</p>
-                                    <p>Each Computercraft employee has 15<br> PTO days per</p>
-                            </div>
-                        </div>
-                    </div>
+  </head>
+  <body style="background-color: #f4f5f7">
+    <main class="main">
+      <div class="pto"><p>Type of Leave</p></div>
+      <form>
+        <!-----------First Row------------->
+        <div class="first-row">
+          <div id="b1" class="box-1 bb">
+            <div class="radio">
+              <input onclick="check1()" type="radio" id="rad1" name="a" />
+            </div>
+            <div class="right">
+              <p class="paid" id="leaveTitle1">Paid Time Off (PTO)</p>
+              <p id="leaveText1">
+                Each Computercraft employee has 15 PTO days per
+              </p>
+            </div>
+          </div>
+          <div id="b2" class="box-2 bb">
+            <div class="radio">
+              <input onclick="check2()" type="radio" id="rad2" name="a" />
+            </div>
+            <div class="right">
+              <p class="paid" id="leaveTitle2">Telecommuting</p>
+              <p id="leaveText2">
+                Working outside of the office during normal office hours.
+              </p>
+            </div>
+          </div>
+        </div>
 
-                    <!------------Second Row------------------------->
-    
-                    <div class="first-row">
-                        <div id="b3" class="box-1 bb">
-                            <div class="radio">
-                                <input onclick="check3()" type="radio" id="rad3" name="a">
-                            </div>
-                            <div class="right">
-                                <p class="paid">Paid Time Off (PTO)</p>
-                                <p>Each Computercraft employee has 15<br> PTO days per</p>
-                            </div>
-                        </div>
-                        <div id="b4" class="box-2 bb">
-                            <div class="radio">
-                                <input onclick="check4()" type="radio" id="rad4" name="a">
-                            </div>
-                            <div class="right">
-                                <p class="paid">Paid Time Off (PTO)</p>
-                                <p>Each Computercraft employee has 15<br> PTO days per</p>
-                            </div>
-                        </div>
-                    </div>
-                </form>
+        <!------------Second Row => Same as First Row------------------------->
 
-                <div class="hl"></div>
-                <h3>Date Range</h3>
+        <div class="first-row">
+          <div id="b3" class="box-1 bb">
+            <div class="radio">
+              <input onclick="check3()" type="radio" id="rad3" name="a" />
+            </div>
+            <div class="right">
+              <p class="paid" id="leaveTitle3">Jury Duty</p>
+              <p id="leaveText3">
+                Computercraft will compensate employees for up to 15 days of
+                Jury Duty.
+              </p>
+            </div>
+          </div>
+          <div id="b4" class="box-2 bb">
+            <div class="radio">
+              <input onclick="check4()" type="radio" id="rad4" name="a" />
+            </div>
+            <div class="right">
+              <p class="paid" id="leaveTitle4">Bereavement</p>
+              <p id="leaveText4">
+                If a close family member has passed away, please take time to be
+                with your family.
+              </p>
+            </div>
+          </div>
+        </div>
+      </form>
 
-                <!--------------Date Range--------------------->
+      <div class="hl"></div>
+      <h3>Date Range</h3>
 
-                <div class="dates">
-                    <div class="start-date">
-                        <input class="no-outline" style="border: none;" type="date"/>
-                    </div>
-                    <i class="fa-solid arrow fa-arrow-right"></i>
-                    <div class="end-date">
-                        <input class="no-outline" style="border: none;" type="date"/>
-                    </div>
-                </div>
+      <!--------------Date Range--------------------->
 
-                <!------------------------------------>
+      <div class="dateName">
+        <p class="startDate">Start Date</p>
+        <p class="endDate">End Date</p>
+      </div>
 
-                <h3>Note From Management</h3>
-                <input class="row-4" type="text" >
-        
-                <div class="row-5">
-                    <div class="btn-4">Approve Request</div>
-                </div>
-        </main>
+      <div class="dates">
+        <div class="start-date">
+          <input class="no-outline" id="sd" style="border: none" type="date" />
+        </div>
+        <i class="fa-solid arrow fa-arrow-right"></i>
+        <div class="end-date">
+          <input class="no-outline" id="ed" style="border: none" type="date" />
+        </div>
+      </div>
 
-<script src="app.js" ></script>
-</body>
-<html>
+      <!----------Note to Management-------------->
+
+      <h3>Note to Management</h3>
+
+      <form>
+        <textarea id="note">
+Please enter any details that management should take into consideration.
+        </textarea>
+      </form>
+
+      <button id="myButton" type="button" onclick="myFunction()">
+        Approve Request
+      </button>
+    </main>
+    <!---------------------->
+
+    <div class="displayData">
+      <h4>Type of Leave</h4>
+      <p id="revealLeaveTitle"></p>
+      <p id="revealLeaveText"></p>
+
+      <hr />
+
+      <h4>Date Range</h4>
+      <div class="dateName">
+        <p class="startDate">Start Date</p>
+        <p class="endDate">End Date</p>
+      </div>
+
+      <div class="displayDateStyle">
+        <p id="displaySd"></p>
+        <p id="displayEd" class="displayEdStyle"></p>
+      </div>
+
+      <hr />
+      <h4>Note From Management</h4>
+      <p id="displayNote"></p>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
