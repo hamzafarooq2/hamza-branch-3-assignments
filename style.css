@@ -1,0 +1,323 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar__leftside-list {
+  display: flex;
+  margin: 20px 0 0 48px;
+  align-items: center;
+}
+.navbar .logo {
+  font-size: 30px;
+  color: orangered;
+  margin-right: 24px;
+}
+.navbar__rightside-list {
+  display: flex;
+}
+.navbar__user {
+  display: flex;
+  align-items: center;
+}
+.navbar__ul {
+  display: flex;
+  list-style-type: none;
+}
+.navbar__ul li {
+  margin-right: 20px;
+  font-size: 12px;
+  transition: 0.5s;
+  color: #989898;
+}
+
+.navbar__ul li:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.navbar__rightside-list {
+  display: flex;
+  margin: 20px 48px 0 0;
+  align-items: center;
+}
+
+.navbar__btn {
+  margin-right: 16px;
+  display: flex;
+  background-color: #f5f5f5;
+  padding: 10px 16px 10px 16px;
+  border-radius: 20px;
+  align-items: center;
+}
+.navbar__btn p {
+  margin-right: 8px;
+  font-size: 11px;
+  font-weight: bold;
+}
+.navbar__btn i {
+  font-size: 12px;
+}
+.navbar .setting {
+  color: #989898;
+  margin-right: 16px;
+}
+
+.navbar .bell {
+  color: #989898;
+  margin-right: 16px;
+}
+.navbar img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+.navbar__user .name {
+  margin-right: 4px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.navbar__user i {
+  font-size: smaller;
+}
+/*-----------------Navbar-End-------------------*/
+
+.leave-summary {
+  display: flex;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+.leave-summary-heading {
+  margin: 48px 0 20px 36px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/*-------------Leave-Stats----------------------*/
+
+.leave-stats {
+  display: flex;
+}
+
+.leave-stats .box {
+  width: 340px;
+  height: 262px;
+  border: 1px solid #dce0e3;
+  border-radius: 16px;
+  margin-right: 32px;
+}
+
+.leave-stats .box .title {
+  margin-top: 24px;
+  margin-left: 24px;
+  color: lightslategray;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.leave-stats .box .empNo-percentage {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 4px 0 24px 0;
+}
+
+.leave-stats .box .empNo {
+  margin-left: 24px;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.leave-stats .box .text {
+  padding: 24px 32px 0 24px;
+  font-size: 14px;
+}
+
+.leave-stats .box .arrow-percentage {
+  display: flex;
+  flex-direction: row;
+  margin-top: 28px;
+  color: #1bcaed;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.leave-stats .box .arrow-percentage .fa-solid {
+  margin-right: 4px;
+}
+
+.leave-stats .box .text-background {
+  background-color: #363847;
+  height: 142px;
+  color: #d2d3d6;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.gr-3 {
+  display: flex;
+  flex-direction: row;
+  margin: 28px 20px 0 0;
+  color: #f943a7;
+  font-weight: bold;
+}
+
+.gr-3 .fa-solid {
+  margin-right: 4px;
+}
+
+/*-----------------List-----------------*/
+
+.next-7-days {
+  width: 25%;
+  margin: -40px 0 0 160px;
+}
+.next-7-days .heading {
+  font-size: 25px;
+}
+.next-7-days .line-2px {
+  height: 2px;
+  background: 1px #e9e5e8;
+  margin-top: 10px;
+}
+
+h2 {
+  color: #5f5e5f;
+  margin-top: 19px;
+  font-size: 18px;
+}
+.next-7-days .line-1px {
+  height: 1px;
+  background: 1px #e9e5e8;
+  margin-top: 10px;
+}
+.user-status {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.user-info {
+  display: flex;
+}
+.name-leaveStatus {
+  margin-left: 10px;
+}
+.name-leaveStatus .name {
+  font-size: medium;
+}
+.name-leaveStatus .leave-status {
+  font-size: 15px;
+  color: #5f5e5f;
+  font-weight: bold;
+  margin-left: 4px;
+}
+.right {
+  font-size: 15px;
+  color: #5f5e5f;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+img {
+  width: 47px;
+  height: 47px;
+  border-radius: 50%;
+}
+
+/*---------------173 TABLE---------------------*/
+table {
+  width: 95%;
+  margin-left: 32px;
+}
+
+.req {
+  margin: 12px 0 24px 32px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.first-row {
+  display: inline-flex;
+  color: #aaaaa9;
+  font-size: 12px;
+  border-bottom: 2px solid #ddd;
+  width: 100%;
+  padding-bottom: 16px;
+}
+
+.emp {
+  margin-left: 24px;
+}
+
+.leave {
+  margin-left: 624px;
+}
+.from {
+  margin-left: 200px;
+}
+
+.main-row {
+  display: flex;
+  align-items: center;
+  padding: 8px 0 8px 0;
+  transition: 0.5s;
+  border-bottom: 1px solid #ddd;
+}
+
+.hov {
+  transition: 0.5s;
+}
+.hov:hover {
+  background-color: #e9e5e8;
+  cursor: pointer;
+}
+
+img {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+.name {
+  margin-left: 8px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.unpaid {
+  margin-left: 548px;
+  color: lightslategray;
+  font-weight: bold;
+  font-size: 12px;
+}
+.date {
+  margin-left: 164px;
+  color: lightslategray;
+  font-weight: bold;
+  font-size: 12px;
+}
+.disapprove {
+  margin-left: 160px;
+  color: #ef4d6b;
+  font-weight: bold;
+  font-size: 12px;
+}
+.btn {
+  padding: 8px 12px;
+  margin-left: 24px;
+  background-color: #0beca3;
+  color: white;
+  border-radius: 6px;
+  font-size: 12px;
+}
+.more {
+  margin-left: 24px;
+  color: #404541;
+  font-weight: bold;
+  font-size: 12px;
+}
